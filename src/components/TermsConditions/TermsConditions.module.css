@@ -1,0 +1,51 @@
+.termsConditions {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  padding: 2em;
+  display: flex;
+  align-items: center;
+}
+
+.message {
+  background: white;
+  max-width: 500px;
+  max-height: 100%;
+  margin: 0 auto;
+  padding: 1.5em;
+  box-shadow: 0 0 5px black;
+  overflow: auto;
+  border-radius: 5px;
+}
+
+.messageText {
+  font-size: 0.9rem;
+  margin-bottom: 2em;
+}
+
+.messageText > h2 {
+  margin: 0 0 0.5em;
+}
+
+.messageButtons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.messageButton {
+  font-size: 1rem;
+  font-weight: 600;
+  width: 150px;
+  border: 0;
+  background: #1ec3cc;
+  color: white;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+.messageButton:first-child {
+  margin-right: 1em;
+}
